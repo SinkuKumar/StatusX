@@ -1,0 +1,19 @@
+[theme]
+base="light"
+
+[server]
+headless = true
+runOnSave = false
+
+[client]
+showSidebarNavigation = false
+
+[ui]
+hideTopBar = true
+
+[browser]
+gatherUsageStats = false
+
+[global]
+developmentMode = false
+disableWatchdogWarning = true
