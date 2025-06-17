@@ -1,2 +1,3 @@
 # StatusX
-Status tracker for automation scripts.
+
+Status dashboard for Graphx.
