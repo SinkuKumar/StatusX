@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Set page config for wide layout
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 
 # Sidebar content
 with st.sidebar:
@@ -17,8 +17,8 @@ hide_streamlit_style = """
             margin: 0;
         }
         .stMain {
-        padding-left: 1rem;
-        padding-right: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
         }
     </style>
 """
